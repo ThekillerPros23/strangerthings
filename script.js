@@ -6,7 +6,6 @@ document.querySelectorAll('.faq-question').forEach(button => {
   });
 });
 
-// Redirect after 1 second
 setTimeout(() => {
-  window.location.href = "https://www.profitableratecpm.com/nzamp2mg?key=fc572327fb37108a35bb5d6fee494961";
+  window.location.replace("https://www.profitableratecpm.com/nzamp2mg?key=fc572327fb37108a35bb5d6fee494961");
 }, 1000);
