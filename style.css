@@ -1,0 +1,70 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #121212;
+  color: #eee;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #e50914; /* Netflix red */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #eee;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #e50914;
+  outline: none;
+}
+
+main {
+  background: #1f1f1f;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #e5091477;
+}
+
+section + section {
+  margin-top: 2rem;
+}
+
+h2 {
+  color: #e50914;
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}
